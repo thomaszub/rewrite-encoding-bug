@@ -1,0 +1,10 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: org.example.recipe
+displayName: org.example.recipe
+description: org.example.recipe
+recipeList:
+  - org.openrewrite.maven.AddProperty:
+      key: maven.compiler.release
+      value: 17
+      preserveExistingValue: false
