@@ -8,3 +8,5 @@ recipeList:
       key: maven.compiler.release
       value: 17
       preserveExistingValue: false
+  - org.openrewrite.java.RemoveUnusedImports
+
